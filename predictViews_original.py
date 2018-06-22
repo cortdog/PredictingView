@@ -20,7 +20,7 @@ from keras.optimizers import Adam
 goalpath=os.path.join(os.getcwd(), 'main_dir')
 model_path='predict_view_model_2.keras'
 
-if not os.path.isdir('train_data_RWMA'):
+if not os.path.isdir('train_data_RWMAo'):
     os.makedirs('train_data_RWMA')
 save_path=os.path.join(os.getcwd(), 'train_data_RWMA')
 
