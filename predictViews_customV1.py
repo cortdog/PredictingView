@@ -18,7 +18,7 @@ from keras.layers import TimeDistributed, Dense, SimpleRNN, Input, Flatten, Conv
 from keras.optimizers import Adam
 
 goalpath=os.path.join(os.getcwd(), 'main_dir')
-model_path='View_custom_v2'
+model_path='View_Custom'
 
 if not os.path.isdir('train_data_RWMA'):
     os.makedirs('train_data_RWMA')
